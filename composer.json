@@ -1,0 +1,47 @@
+{
+    "name": "Emmanix2002/DatabaseAdapter",
+    "type": "library",
+    "description": "A simple package that abstracts away the process of connecting to a database using PDO and interacting with the connection",
+    "keywords": [
+        "Emmanix2002",
+        "DatabaseAdapter",
+        "Database"
+    ],
+    "homepage": "https://github.com/emmanix2002/DatabaseAdapter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Okeke Emmanuel",
+            "email": "emmanix2002@gmail.com",
+            "homepage": "https://about.me/eokeke",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~5.4",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emmanix2002\\DatabaseAdapter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Emmanix2002\\DatabaseAdapter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
