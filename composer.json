@@ -1,13 +1,13 @@
 {
-    "name": "Emmanix2002/DatabaseAdapter",
+    "name": "emmanix2002/database-adapter",
     "type": "library",
     "description": "A simple package that abstracts away the process of connecting to a database using PDO and interacting with the connection",
     "keywords": [
-        "Emmanix2002",
-        "DatabaseAdapter",
-        "Database"
+        "emmanix2002",
+        "database-adapter",
+        "database"
     ],
-    "homepage": "https://github.com/emmanix2002/DatabaseAdapter",
+    "homepage": "https://github.com/emmanix2002/database-adapter",
     "license": "MIT",
     "authors": [
         {

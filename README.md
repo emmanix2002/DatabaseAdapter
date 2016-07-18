@@ -15,7 +15,7 @@ All code is written using PSR1 and PSR2 guidelines.
 Via Composer
 
 ``` bash
-$ composer require Emmanix2002/DatabaseAdapter
+$ composer require emmanix2002/database-adapter
 ```
 
 ## Usage
@@ -58,17 +58,17 @@ If you discover any security related issues, please email emmanix2002@gmail.com 
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/emmanix2002/DatabaseAdapter.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/emmanix2002/database-adapter.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/emmanix2002/DatabaseAdapter/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/emmanix2002/DatabaseAdapter.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/emmanix2002/DatabaseAdapter.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/emmanix2002/DatabaseAdapter.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/emmanix2002/database-adapter/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/emmanix2002/database-adapter.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/emmanix2002/database-adapter.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/emmanix2002/database-adapter.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/emmanix2002/DatabaseAdapter
+[link-packagist]: https://packagist.org/packages/emmanix2002/database-adapter
 [link-travis]: https://travis-ci.org/emmanix2002/DatabaseAdapter
-[link-scrutinizer]: https://scrutinizer-ci.com/g/emmanix2002/DatabaseAdapter/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/emmanix2002/DatabaseAdapter
-[link-downloads]: https://packagist.org/packages/emmanix2002/DatabaseAdapter
+[link-scrutinizer]: https://scrutinizer-ci.com/g/emmanix2002/database-adapter/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/emmanix2002/database-adapter
+[link-downloads]: https://packagist.org/packages/emmanix2002/database-adapter
 [link-author]: https://github.com/emmanix2002
 [link-contributors]: ../../contributors
