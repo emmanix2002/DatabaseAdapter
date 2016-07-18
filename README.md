@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-The main aim of this package is to abstract away the process of connecting to a database using `PDO`. 
+A simple package that abstracts away the process of connecting to a database using `PDO` and interacting with the connection.  
 All code is written using PSR1 and PSR2 guidelines.
 
 ## Install
