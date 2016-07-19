@@ -95,13 +95,17 @@ class MySqlAdapter implements AdapterInterface
      * Sets the value for default configuration key
      *
      * @param string $key
-     * @param string $value
+     * @param string $value the value for the setting (for boolean keys, pass NULL or a non-empty string)
      *
      * @return void
      */
-    public static function setDefault(string $key, string $value)
+    public static function setDefault(string $key, string $value = null)
     {
-        self::$defaultConfig[$key]  = $value;
+        if ($key !== 'autoconnect') {
+            self::$defaultConfig[$key]  = $value;
+        } else {
+            self::$defaultConfig[$key]  = (bool) $value;
+        }
     }
     
     /**
