@@ -147,7 +147,7 @@ class MySqlAdapter implements AdapterInterface
             if (empty($this->host) || empty($this->schema)) {
                 throw new ConfigurationException('The hostname and/or schema were not set');
             }
-            $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->schema . ';charset=utf8mb4';
+            $dsn = 'mysql:host='.$this->host.';dbname='.$this->schema.';charset=utf8mb4';
             $this->connection = new PDO(
                 $dsn,
                 $this->user,
@@ -217,7 +217,7 @@ class MySqlAdapter implements AdapterInterface
      */
     public function getConnection()
     {
-        return ! $this->connection instanceof \PDO ? $this->connection : null;
+        return !$this->connection instanceof \PDO ? $this->connection : null;
     }
     
     /**
@@ -373,7 +373,7 @@ class MySqlAdapter implements AdapterInterface
     public function selectAll(string $sql, ...$arguments): array
     {
         $records = $this->exec($sql, true, ...$arguments);
-        return !empty($records) ?  $records : [];
+        return !empty($records) ? $records : [];
     }
     
     /**
@@ -388,7 +388,7 @@ class MySqlAdapter implements AdapterInterface
     public function selectOne(string $sql, ...$arguments): array
     {
         $records = $this->exec($sql, true, ...$arguments);
-        return !empty($records) ?  $records[0] : [];
+        return !empty($records) ? $records[0] : [];
     }
     
     /**
@@ -396,6 +396,6 @@ class MySqlAdapter implements AdapterInterface
      */
     public function __toString()
     {
-        return __CLASS__ . ' Instance {Host: ' . $this->host . ', Schema: ' . $this->schema . ', User: ' . $this->user .'}';
+        return __CLASS__.' Instance {Host: '.$this->host.', Schema: '.$this->schema.', User: '.$this->user.'}';
     }
 }
