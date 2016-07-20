@@ -230,7 +230,7 @@ class MySqlAdapter implements AdapterInterface
     public function setHost(string $host): AdapterInterface
     {
         if (empty($host)) {
-            throw new \InvalidArgumentException(('Empty database hostname'));
+            throw new \InvalidArgumentException('Empty database hostname');
         }
         $this->host = $host;
         return $this;
