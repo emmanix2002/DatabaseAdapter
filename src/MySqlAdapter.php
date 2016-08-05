@@ -217,7 +217,8 @@ class MySqlAdapter implements AdapterInterface
      */
     public function getConnection()
     {
-        return !$this->connection instanceof \PDO ? $this->connection : null;
+        $this->connect();
+        return $this->connection instanceof \PDO ? $this->connection : null;
     }
     
     /**
